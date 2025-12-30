@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sony Tips | Cricket Updates</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background: radial-gradient(circle at top, #0f3d2e, #021a14);
+    padding:20px;
+    color:#fff;
+}
+
+.card{
+    width:100%;
+    max-width:380px;
+    background: rgba(10,60,45,0.85);
+    backdrop-filter: blur(10px);
+    border-radius:22px;
+    padding:28px 22px;
+    text-align:center;
+    box-shadow:0 25px 60px rgba(0,0,0,0.6);
+}
+
+.tag{
+    display:inline-block;
+    background:#1b6b4f;
+    padding:8px 16px;
+    border-radius:30px;
+    font-size:14px;
+    margin-bottom:18px;
+}
+
+.brand{
+    font-size:34px;
+    font-weight:800;
+    letter-spacing:1.2px;
+    background: linear-gradient(90deg,#7CFFCB,#2ECC71);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    margin-bottom:8px;
+}
+
+.subtitle{
+    font-size:15px;
+    opacity:0.9;
+    margin-bottom:20px;
+}
+
+.timer{
+    font-size:14px;
+    margin-bottom:20px;
+}
+
+.timer span{
+    color:#7CFFCB;
+    font-weight:700;
+}
+
+.btn{
+    display:block;
+    width:100%;
+    background:linear-gradient(135deg,#2ECC71,#1abc9c);
+    color:#002414;
+    font-size:18px;
+    font-weight:700;
+    padding:15px;
+    border-radius:14px;
+    text-decoration:none;
+    margin-bottom:14px;
+    box-shadow:0 10px 25px rgba(46,204,113,0.4);
+}
+
+.btn:hover{
+    transform:scale(1.02);
+}
+
+.note{
+    font-size:13px;
+    opacity:0.85;
+    margin-bottom:18px;
+}
+
+hr{
+    border:none;
+    border-top:1px dashed rgba(255,255,255,0.2);
+    margin:18px 0;
+}
+
+.disclaimer{
+    font-size:12px;
+    line-height:1.5;
+    opacity:0.7;
+}
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+    <div class="tag">🎾 Cricket Updates & Insights</div>
+
+    <div class="brand">SONY TIPS</div>
+
+    <div class="subtitle">
+        Honest analysis • Match insights • Community driven
+    </div>
+
+    <div class="timer">
+        FREE JOINING ENDS IN <span id="time">45</span>s
+    </div>
+
+    <a href="https://t.me/+uoZ1x7KZ6dZiZjBl" class="btn">
+        Subscribe Free 🚀
+    </a>
+
+    <div class="note">
+        Stay informed with transparent cricket analysis
+    </div>
+
+    <hr>
+
+    <div class="disclaimer">
+        Disclaimer: This channel shares cricket updates, analysis,
+        and general information for fans only.  
+        It does not promote betting or gambling.  
+        No outcomes are guaranteed. Please verify independently
+        and act responsibly.
+    </div>
+
+</div>
+
+<script>
+let t = 45;
+setInterval(()=>{
+    if(t>0){
+        t--;
+        document.getElementById("time").innerText = t;
+    }
+},1000);
+</script>
+
+</body>
+</html>
